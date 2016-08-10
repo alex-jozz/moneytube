@@ -2016,17 +2016,8 @@ nav.dismiss-active {
   }
 }
 .header-8 {
-  background: #38acd2;
+  background: url(../img/slice-12.jpg);
   position: relative;
-}
-.header-8:after {
-  content: '';
-  background: url(../img/slice-1.png);
-  background-repeat: repeat;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
 }
 .header-8 h2 {
   margin-bottom: 10px;

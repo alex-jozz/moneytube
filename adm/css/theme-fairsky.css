@@ -207,6 +207,23 @@ img {
   margin-top: 50px;
 }
 
+.table{
+    display: table;
+    width: 100%;
+}
+.table-cell{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.bg-gray{
+  background: #f6f8fa;
+}
+.title-form{
+  padding:  20px;
+  color:#000;
+}
+
 
 /*!---------- MIXINS ----------*/
 .v-align-children {
@@ -244,6 +261,20 @@ img {
 @media all and (max-width: 990px) {
   .v-align-children {
     display: block !important;
+  }
+  .table-cell {
+    display: block; 
+    float: none;
+  }
+  .title-form {
+    background: #f6f8fa
+  }
+  .bg-gray {
+    background: none;
+  } 
+  .table {
+    display: block;
+    width: auto;
   }
 }
 /*!---------- SECTIONS ----------*/
